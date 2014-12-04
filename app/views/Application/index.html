@@ -1,0 +1,9 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+#{form @uploadPhoto(), enctype:'multipart/form-data'}
+    <input type="file" name="imageFile">
+    <p>
+        <input type="submit">
+    </p>
+#{/}
